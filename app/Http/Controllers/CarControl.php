@@ -64,8 +64,12 @@ class CarControl extends Controller
     }
     function detail($id)
     {
-        $caritem = Car::find($id);
-        return view('detail', ['item' => $caritem]);
+        $caritem = DB::table('car')
+                ->join('userinfo','car.authorid','=','userinfo.id')
+                ->where('car.id',$id)
+                ->select('car.*','userinfo.*')
+                ->first();
+            return view('detail', ['item' => $caritem]);
        
     }
     function search(Request $req)

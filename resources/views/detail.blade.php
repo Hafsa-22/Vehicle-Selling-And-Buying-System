@@ -12,7 +12,7 @@
             </div>
             <div class="car_detail_txt col-md-4 col-sm-12 text-center">
                 <p>Model : <span class="txt"></span> {{$item->model}}</p>
-                <p>Brand :<span class="txt"></span>{{$item->brand}}</p>
+                <p>Brand : <span class="txt"></span>{{$item->brand}}</p>
                 <p>Price : <span class="txt"></span> {{$item->price}}</p>
                 <p>How long you uses : <span class="txt"></span>{{$item->uses}}</p>
             </div>
@@ -20,6 +20,12 @@
                 <p class="txt">{{ $item->created_at}}</p>
                 <p class="txt"> Description:</p>
                 <p class="txt">{{$item->detail}}</p>
+            </div>
+
+            <div class="contact_author"><br>
+               <h5>Contact the advertiser</h5>
+               <p>Email : <span class="txt"></span> {{$item->email}}</p>
+               <p>Mobile : <span class="txt"></span>{{$item->mobile}}</p>
             </div>
 
         </div>
