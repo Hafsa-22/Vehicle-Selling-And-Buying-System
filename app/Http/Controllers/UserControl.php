@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 use App\Models\Userinfo;
+
 class UserControl extends Controller
 {
     //
@@ -46,5 +47,18 @@ class UserControl extends Controller
             return redirect('carhome');
         }
     }
-    
+    function author()
+    {
+        return view('author');
+    }
+    static function getimage()
+    {
+
+        if (session()->has('owner')) {
+            $userid = session()->get('owner');
+            return Userinfo::where('id', $userid)->select('userinfo.*')->get();
+        } else {
+            return "author";
+        }
+    }
 }

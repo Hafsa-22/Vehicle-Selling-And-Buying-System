@@ -1,6 +1,6 @@
 .header{
 
-	background:#4cd015;
+	background: #a93b6d;
 	
 text-align:center;
 }
@@ -69,7 +69,7 @@ author
 	padding:5px 8px !important;
 	border:none;
 	outline:none;
-	background:red;
+	background:darkorchid;
 	color:antiquewhite;
 	border-radius:5px;
 }
@@ -77,7 +77,7 @@ author
 	padding:5px 8px !important;
 	border:none;
 	outline:none;
-	background:green;
+	background:darkorchid;
 	color:white;
 	border-radius:5px;
 }
@@ -94,11 +94,11 @@ color:black !important
 	font-size:20px;
 }
 .author_detail .owner_dtl2{
-	color:#16ec27;;
+	color:#a93b6d;;
 	font-size:20px;
 }
 .author .author_detail{
-	color:gree;
+	color:darkmagenta;
 	margin:100px 0px;
 }
 .author .author_post img{
@@ -133,24 +133,24 @@ color:black !important
 }
 .post_form_container .input_container{
    margin:25px;
-   color:green;
+   color:darkmagenta;
 }
 .post_form_container .input_container in{
    transition:.4s;
 }
 .post_form_container .input_container in:acive{
-   border:2px solid green;
+   border:2px solid darkmagenta;
    color:gray;
 }
 .post_form_container .head{
 	
 	text-align:center; padding:10px 0px; margin-bottom:80px;
                    box-sizing:border-box;
-                   border:1px solid green;
+                   border:1px solid darkmagenta;
                 
 }
 .input_container .spn{
-	color:green;
+	color:darkmagenta;
 	padding:0px 15px;
 }
 .input_container input{
@@ -200,7 +200,7 @@ footer
 .footer{
 	padding:50px 0px;
 	width:100%;
-	background:#4cd015;
+	background:#a93b6d;
 }
 .footer .footer_top a{
 	text-decoration:none;
@@ -215,7 +215,7 @@ footer
 	height:30px;
 	font-size:15px;
 	line-height:30px;
-	background:black;
+	background:white;
 	color:lightgray;
 }
 .addvertise{
@@ -233,7 +233,7 @@ footer
 	padding:5px 8px !important;
 	border:none;
 	outline:none;
-	background:green;
+	background:orchid;
 	color:antiquewhite;
 	border-radius:5px;
 }

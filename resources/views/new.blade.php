@@ -1,0 +1,1 @@
+<img src="url('img/' . vivo2.jpg)" alt="">

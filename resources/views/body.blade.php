@@ -15,7 +15,12 @@
     {{View::make('header')}}
     @yield("signup")
     @yield("login")
+    @yield("author")
     @yield("carhome")
+    @yield("edit")
+    @yield("detail")
+    @yield("search")
+    @yield("addpost")
     {{View::make('footer')}}
 
 </body>
