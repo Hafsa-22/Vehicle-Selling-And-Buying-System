@@ -15,6 +15,7 @@
     {{View::make('header')}}
     @yield("signup")
     @yield("login")
+    @yield("carhome")
     {{View::make('footer')}}
 
 </body>

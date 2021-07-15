@@ -1,6 +1,7 @@
 <?php
-
+use App\Http\Controllers\UserControl;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarControl;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('carhome');
 });
 Route::get("signup", function () {
     return view('signup');
@@ -22,4 +23,9 @@ Route::get("signup", function () {
 Route::get("login", function () {
     return view('login');
 });
+
+Route::post("login", [UserControl::class, 'login']);
+Route::post("signup", [UserControl::class, 'signup']);
+
+Route::get('carhome', [CarControl::class, 'carhome']);
 

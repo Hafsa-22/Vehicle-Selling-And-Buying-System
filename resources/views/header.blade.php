@@ -1,7 +1,7 @@
 <section class="header">
     <div class="row justify-content-around">
         <div class="col-sm-2 logo">
-            <a href="{{url('vehiclehome')}}">VehicleHome</a>
+            <a href="{{url('carhome')}}">CarHome</a>
         </div>
 
         <div class="col-sm-12 col-md-3">
