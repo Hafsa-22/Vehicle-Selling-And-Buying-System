@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <title>Hafsa</title>
+    <title>VehicleHome</title>
 </head>
 
 <body>
