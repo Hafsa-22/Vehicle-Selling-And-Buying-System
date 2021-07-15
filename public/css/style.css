@@ -1,0 +1,253 @@
+.header{
+
+	background:#4cd015;
+	
+text-align:center;
+}
+.header a{
+	color:white !important;
+	padding:10px;
+	line-height:70px;
+}
+.search .input_src{
+	margin:25px 0px;
+}
+/* register  
+
+-------
+*/
+.register , .login{
+	margin:200px 0px;
+}
+.register .input , 
+.login .input{
+	margin-bottom:20px;
+}
+.register .input input[type=text],
+.register .input input[type=email],
+.register .input input[type=password],
+.login .input input[type=email],
+.login .input input[type=password]{
+	width:100%;
+
+	outline:none;
+}
+.register .input label , 
+.login .input .label{
+	margin-bottom:5px;
+}
+
+/*
+home css
+*/
+
+
+/*
+author
+
+*/
+.author_accont{
+	margin:100px 0px;
+}
+.author_account .auth_data{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.auth_list{
+	border-bottom:1px solid gray;
+	margin-bottom:20px;
+}
+.auth_list .list_img img{
+	width:300px;
+}
+
+
+/* global
+
+*/
+.remove-btn{
+	padding:5px 8px !important;
+	border:none;
+	outline:none;
+	background:red;
+	color:antiquewhite;
+	border-radius:5px;
+}
+.detail-btn{
+	padding:5px 8px !important;
+	border:none;
+	outline:none;
+	background:green;
+	color:white;
+	border-radius:5px;
+}
+/*------------------------------------
+	author
+*/
+a{
+	text-decoration:none !important;
+color:black !important
+}
+
+.author_detail .owner_dtl1{
+	color:darkgray;
+	font-size:20px;
+}
+.author_detail .owner_dtl2{
+	color:#16ec27;;
+	font-size:20px;
+}
+.author .author_detail{
+	color:gree;
+	margin:100px 0px;
+}
+.author .author_post img{
+	
+	
+}
+.author .author_post .img img{
+	width:300px;
+	
+}
+.author .author_post {
+	margin-left:10px;
+	
+	
+}
+.author .author_post text2{
+	
+	color:black;
+	font-size:20px;
+	
+}
+.author .author_post txt{
+	font-size:18px;
+	color:georgian;
+	
+
+	
+}
+.post_form_container{
+	margin:100px 0px; 
+	border:1px solid gray;
+}
+.post_form_container .input_container{
+   margin:25px;
+   color:green;
+}
+.post_form_container .input_container in{
+   transition:.4s;
+}
+.post_form_container .input_container in:acive{
+   border:2px solid green;
+   color:gray;
+}
+.post_form_container .head{
+	
+	text-align:center; padding:10px 0px; margin-bottom:80px;
+                   box-sizing:border-box;
+                   border:1px solid green;
+                
+}
+.input_container .spn{
+	color:green;
+	padding:0px 15px;
+}
+.input_container input{
+	border:none;
+	border-bottom:1px solid gray;
+	outline:none;
+}
+.author_editor_div{
+	margin-bottom:60px;
+	margin-left:20px;
+	
+}
+/*
+ car home
+*/
+.carhome{
+	margin:100px 0px;
+}
+.carhome .car_item{
+	
+	
+	margin-bottom:50px;
+	
+
+	border-radius:10px;
+	transition:.5s ease;
+}
+.carhome .car_item:hover{
+	transform:scale(.9);
+}
+.carhome .car_item .img img{
+	width:300px !important;
+	height:212px !important;
+}
+
+.cardetail{
+	margin:100px 0px;
+}
+.cardetail .img img{
+	max-width:400px;
+}
+
+
+/*
+footer 
+*/
+.footer{
+	padding:50px 0px;
+	width:100%;
+	background:#4cd015;
+}
+.footer .footer_top a{
+	text-decoration:none;
+	padding:5px;
+	text-align:center;
+	color:white;
+	display:block;
+}
+.footer_down{
+	width:100%;
+	text-align:center;
+	height:30px;
+	font-size:15px;
+	line-height:30px;
+	background:black;
+	color:lightgray;
+}
+.addvertise{
+	margin:50px 0px;
+	height:80px;
+	border:1px solid black;
+}
+.addvertise .text .txt p{
+	text-align:center;
+	line-height:80px;
+	font-size:30px;
+}
+
+.edit-btn{
+	padding:5px 8px !important;
+	border:none;
+	outline:none;
+	background:green;
+	color:antiquewhite;
+	border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
